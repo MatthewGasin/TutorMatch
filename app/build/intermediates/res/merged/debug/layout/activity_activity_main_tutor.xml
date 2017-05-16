@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.tutormatchtest.activity_main_tutor"
+    android:id="@+id/mainTutor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Class I"
+        android:id="@+id/TutorText1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Class II"
+        android:id="@+id/TutorText2"
+        android:layout_below="@+id/TutorText1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Class III"
+        android:id="@+id/TutorText3"
+        android:layout_below="@+id/TutorText2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="61dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Details"
+        android:id="@+id/tutorDetails0"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="tutorDetails0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Details"
+        android:id="@+id/TutorDetails1"
+        android:layout_alignTop="@+id/TutorText2"
+        android:layout_alignRight="@+id/tutorDetails0"
+        android:layout_alignEnd="@+id/tutorDetails0"
+        android:onClick="tutorDetails1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class Details"
+        android:id="@+id/TutorDetails2"
+        android:layout_alignTop="@+id/TutorText3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="tutorDetails2" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Matthew/AndroidStudioProjects/TutorMatchTest/app/src/main/res/layout/activity_activity_main_tutor.xml -->
